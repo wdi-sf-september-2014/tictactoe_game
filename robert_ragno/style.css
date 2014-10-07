@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color:#454544;
+	text-align: center;
+	font-family: sans-serif;
+}
+table {
+	margin: 0 auto;
+	text-align: center;
+	border-spacing:10px;
+	border-collapse: no-collapse;
+}
+
+table td{
+	border: 4px solid black;
+	border-color:black;
+	background-color:#262626;
+	height:100px;
+	width:100px;
+}
+td{
+	height:70px;
+	width:100px;
+	line-height: 70px;	
+	font-size: 50px;
+	font-weight: bold;
+}
+h1 {
+	color:white;
+	font-size:60px;
+}
+.cell:hover {
+	background-color:grey;
+}
+.container {
+	margin: 0 auto;
+}
+
+.off{
+	display:none;
+}
+
+.on{
+	display:inherit;
+}
