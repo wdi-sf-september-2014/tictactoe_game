@@ -26,5 +26,6 @@ document.getElementsByTagName("button")[0].addEventListener("click", function() 
 	for (i = 0; i < cells.length; i++) {
 		cells[i].innerHTML = "";
 		cells[i].setAttribute("style", "background-color:#262626;");
+		counter = 0;
 	}
 });
